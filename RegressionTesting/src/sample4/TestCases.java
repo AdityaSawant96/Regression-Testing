@@ -7,6 +7,7 @@ public class TestCases {
 		r.test1();
 		r.test2();
 		r.test3();
+		r.test4();
 	}
 	public void test1()
 	{
@@ -19,6 +20,11 @@ public class TestCases {
 	public void test3()
 	{
 		System.out.println(15*3);
+	}
+	
+	public void test4()
+	{
+		System.out.println(15/3);
 	}
 	
 
